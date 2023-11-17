@@ -95,7 +95,7 @@ const Logo = () => {
         </svg>
 
         <Text variants={textVariants} initial="hidden" animate="visible">
-          Wibe Studio
+          Sea Socials
         </Text>
       </Link>
     </Container>
