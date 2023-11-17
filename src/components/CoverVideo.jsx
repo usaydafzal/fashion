@@ -96,28 +96,44 @@ const item = {
 };
 
 const CoverVideo = () => {
-  const websiteName = "Sea Socials";
-
-  const letters = websiteName.split('');
-
-  
   return (
     <VideoContainer data-scroll>
       <DarkOverlay />
 
       <Title variants={container} initial="hidden" animate="show">
         <div>
-          {letters.map((letter, index) => (
           <motion.h1
-            key={index}
             variants={item}
             data-scroll
-            data-scroll-delay="0.13 - index * 0.03"
+            data-scroll-delay="0.13"
             data-scroll-speed="4"
           >
-            {letter}
+            W
           </motion.h1>
-          ))}
+          <motion.h1
+            variants={item}
+            data-scroll
+            data-scroll-delay="0.09"
+            data-scroll-speed="4"
+          >
+            i
+          </motion.h1>
+          <motion.h1
+            variants={item}
+            data-scroll
+            data-scroll-delay="0.06"
+            data-scroll-speed="4"
+          >
+            b
+          </motion.h1>
+          <motion.h1
+            variants={item}
+            data-scroll
+            data-scroll-delay="0.04"
+            data-scroll-speed="4"
+          >
+            e
+          </motion.h1>
         </div>
         <motion.h2
           style={{ alignSelf: "flex-end" }}
