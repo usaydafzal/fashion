@@ -141,8 +141,9 @@ const Product = ({ img, title = "", link = '#' }) => {
       onClick={handleClick}
     >
       <img width="400" height="600" src={img} alt={title} />
-      <a href={link} {/* Wrap h1 in anchor tag with link */}
+      <a href={link}>
       <h1>{title}</h1>
+    </a>
     </Item>
   );
 };
