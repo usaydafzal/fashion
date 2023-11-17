@@ -130,7 +130,7 @@ const Footer = () => {
           width="300"
           height="300"
           src={Logo}
-          alt="Wibe"
+          alt="Sea Socials"
           data-scroll
           data-scroll-speed="2"
         />
