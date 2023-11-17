@@ -145,7 +145,7 @@ const Navbar = () => {
           whileTap={{ scale: 0.9, y: 0 }}
           onClick={() => handleScroll('#shop')}
         >
-          <Link to="/">shop</Link>
+          <Link to="/">Clients</Link>
         </Item>
 
         <Item
