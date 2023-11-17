@@ -218,14 +218,14 @@ let t1= gsap.timeline();
       <Title
         data-scroll data-scroll-speed="-2" data-scroll-direction="horizontal"
       >
-        New Arrivals
+        Creators
       </Title>
 
       <Container ref={ScrollingRef}>
-        <Photos img={img1} name="Denim" />
-        <Photos img={img2} name="Cool Dresses" />
-        <Photos img={img3} name="Jackets" />
-        <Photos img={img4} name="T-shirts" />
+        <Photos img={img1} name="Usaid" />
+        <Photos img={img2} name="Priyanka" />
+        <Photos img={img3} name="Rizwan" />
+        <Photos img={img4} name="Rizwan" />
       </Container>
 
       <Text data-scroll data-scroll-speed="-4">
