@@ -221,8 +221,9 @@ const Shop = () => {
         </p>
       </Left>
       <Right data-scroll ref={Horizontalref}>
-        <Product img={img3} title="Starbucks" link="https://reddit.com"/>
-        <Product img={img4} title="De Zurich" />
+        <Product img={img3} title="Starbucks" link="https://www.instagram.com/reel/CrYX5ustwAt/?igshid=NTc4MTIwNjQ2YQ=="/>
+        <Product img={img4} title="De Zurich"
+link="https://www.instagram.com/reel/Cv6R6E9JmUm/?igshid=NTc4MTIwNjQ2YQ==" />
         <Product img={img1} title="Man Basics" />
         <Product img={img2} title="Tops" />
         <Product img={img5} title="Blazers" />
