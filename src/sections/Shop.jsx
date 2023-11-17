@@ -126,7 +126,11 @@ const Item = styled(motion.div)`
   }
 `;
 //data-scroll data-scroll-speed="-2" data-scroll-direction="horizontal"
-const Product = ({ img, title = "" }) => {
+const Product = ({ img, title = "", link = '#' }) => {
+  const handleClick = () => {
+    window.location.href = link;
+  };
+
   return (
     // x: 100, y: -100
     <Item
@@ -134,8 +138,10 @@ const Product = ({ img, title = "" }) => {
       whileInView={{ filter: "grayscale(0%)" }}
       transition={{ duration: 0.5 }}
       viewport={{ once: false, amount: "all" }}
+      onClick={handleClick}
     >
       <img width="400" height="600" src={img} alt={title} />
+      <a href={link} {/* Wrap h1 in anchor tag with link */}
       <h1>{title}</h1>
     </Item>
   );
@@ -214,7 +220,7 @@ const Shop = () => {
         </p>
       </Left>
       <Right data-scroll ref={Horizontalref}>
-        <Product img={img3} title="Starbucks" />
+        <Product img={img3} title="Starbucks" link="https://reddit.com"/>
         <Product img={img4} title="De Zurich" />
         <Product img={img1} title="Man Basics" />
         <Product img={img2} title="Tops" />
