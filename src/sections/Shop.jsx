@@ -197,7 +197,7 @@ const Shop = () => {
   return (
     <Section ref={ref} id="shop">
       <Title data-scroll data-scroll-speed="-1">
-        New Collection
+        Collaborations
       </Title>
       <Left>
         <p>
@@ -214,8 +214,8 @@ const Shop = () => {
         </p>
       </Left>
       <Right data-scroll ref={Horizontalref}>
-        <Product img={img3} title="Sweatshirts" />
-        <Product img={img4} title="Ethnic Wear" />
+        <Product img={img3} title="Starbucks" />
+        <Product img={img4} title="De Zurich" />
         <Product img={img1} title="Man Basics" />
         <Product img={img2} title="Tops" />
         <Product img={img5} title="Blazers" />
