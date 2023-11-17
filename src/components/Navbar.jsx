@@ -154,7 +154,7 @@ const Navbar = () => {
           onClick={() => handleScroll('.new-arrival')}
         >
           {' '}
-          <Link to="/">new arrival</Link>
+          <Link to="/">Creators</Link>
         </Item>
       </MenuItems>
     </NavContainer>
